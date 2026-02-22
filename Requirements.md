@@ -2,7 +2,7 @@
 
 ## 1. Product Overview
 
-The system is a multi-tenant SaaS-based online examination platform designed for coaching institutes and training centers. 
+The system is a multi-tenant SaaS-based online examination platform designed for coaching institutes and training centers.
 
 Institutes can create and schedule exams. Students can attempt time-bound tests with auto-save functionality. The system evaluates submissions automatically and provides performance analytics and leaderboard functionality.
 
@@ -18,11 +18,11 @@ The platform must support up to 500 concurrent students during peak exam windows
 - Admin authentication (JWT-based)
 - Create, update, delete exams
 - Define exam:
-  - Title
-  - Duration
-  - Total marks
-  - Start time
-  - End time
+    - Title
+    - Duration
+    - Total marks
+    - Start time
+    - End time
 - Add questions to exam (MCQ initially)
 - Define correct answers and marks
 - View student submissions
@@ -87,12 +87,12 @@ The platform must support up to 500 concurrent students during peak exam windows
 
 - Maximum 500 concurrent students
 - Each student:
-  - Fetches questions once at exam start
-  - Auto-saves answers every 20 seconds
-  - Submits exam once
+    - Fetches questions once at exam start
+    - Auto-saves answers every 20 seconds
+    - Submits exam once
 - Peak traffic occurs:
-  - At exam start (question fetch spike)
-  - At exam end (submission spike)
+    - At exam start (question fetch spike)
+    - At exam end (submission spike)
 
 ---
 
